@@ -8,7 +8,7 @@ int main()
     //Aan Revisi 1.1
     srand(time(NULL));
     int tebak,jml_tebakan=0;
-    int nomor = rand() % 100;
+    int nomor = rand() % 50;//Acak range 0 - 50
     int count;
     ///Hidden Random Number
     //printf ("Random Number: %d\n\n", nomor);
